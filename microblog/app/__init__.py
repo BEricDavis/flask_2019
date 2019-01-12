@@ -15,4 +15,4 @@ migrate = Migrate(app, db)
 login = LoginManager(app)
 login.login_view = 'login'
 # "app" here is the app packags; thiis works though PyCharm complains
-from app import routes, models
+from app import routes, models, errors
